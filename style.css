@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .historie img {
+    float: right;
+    margin-left: 10px;
+  }
+  
+  .technologie ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .technologie li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .kulturni-dopad img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .sberatelstvi table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .sberatelstvi th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+  
+  .vyber-jordanky ol {
+    list-style: numbered;
+    padding: 0;
+  }
+  
+  .vyber-jordanky li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galerie img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+body {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  body.tmavy {
+    background-color: #000;
+    color: #fff;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body.tmavy {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  
+  #režim {
+    float: right;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #registrace {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius:
+    }
+    #slideshow {
+        overflow: hidden;
+        position: relative;
+        width: 600px; 
+        height: 400px;
+      }
+      
+      #slideshow img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0; 
+        transition: opacity 0.5s ease-in-out; 
+      }
+      
+      #slideshow img:first-child {
+        opacity: 1; 
+      }
+      
+      #predchozi, #dalsi {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); 
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5); 
+        color: #fff;
+      }
+      
+      #predchozi {
+        left: 0;
+      }
+      
+      #dalsi {
+        right: 0;
+      }
